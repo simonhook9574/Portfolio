@@ -1,8 +1,8 @@
 body {
-    background-color: grey;
+    background-color: ThreeDLightShadow;
 }
 .button {
-    background-color: lightgray;
+    background-color: ButtonShadow;
     border: none;
     color: white;
     width: 30%;
@@ -42,4 +42,6 @@ body {
     text-align: center;
     font-family: "DejaVu Sans";
     font-size: 150%;
+    padding-left: 20px;
+    padding-right: 20px;
 }
