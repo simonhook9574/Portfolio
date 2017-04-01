@@ -6,7 +6,7 @@ body {
     border: none;
     color: white;
     width: 30%;
-    padding: 15px 32px;
+    padding: 20px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -23,26 +23,30 @@ body {
     border: 1px solid black;
 }
 .header {
-    position: absolute;
+    position: fixed;
     top: 2%;
     left: 40%;
     background-color: darkgrey;
     text-align: center;
     font-family: "DejaVu Sans";
-    font-size: 2vw;
+    font-size: 3vw;
+    font-size: 3vh;
     font-size-adjust: inherit;
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 2% ;
 
 }
 .subheader{
     position: absolute;
-    top: 6%;
+    top: 5%;
     left: 40%;
     background-color: darkgrey;
     text-align: center;
     font-family: "DejaVu Sans";
     font-size: 1.5vw;
+    font-size: 1.5vh;
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 2% ;
 }
