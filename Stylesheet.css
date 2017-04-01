@@ -11,8 +11,9 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 4px -1px;
     cursor: pointer;
+    height: 60px;
 }
 .nav {
     float: left;
@@ -23,7 +24,7 @@ body {
     border: 1px solid black;
 }
 .header {
-    position: fixed;
+    position: absolute;
     top: 2%;
     left: 30%;
     background-color: darkgrey;
@@ -52,4 +53,13 @@ body {
 }
 table, th, td{
     border: 1px solid black;
+    display: inline-block;
+}
+table{
+    position: absolute;
+    left:20%;
+}
+img.skills{
+    width: 20vm;
+    height: 30vh;
 }
