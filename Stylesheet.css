@@ -24,24 +24,25 @@ body {
 }
 .header {
     position: absolute;
-    top: 10px;
+    top: 2%;
     left: 40%;
     background-color: darkgrey;
     text-align: center;
     font-family: "DejaVu Sans";
-    font-size: 200%;
+    font-size: 2vw;
+    font-size-adjust: inherit;
     padding-left: 20px;
     padding-right: 20px;
 
 }
 .subheader{
     position: absolute;
-    top: 60px;
+    top: 6%;
     left: 40%;
     background-color: darkgrey;
     text-align: center;
     font-family: "DejaVu Sans";
-    font-size: 150%;
+    font-size: 1.5vw;
     padding-left: 20px;
     padding-right: 20px;
 }
