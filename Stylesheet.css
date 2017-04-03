@@ -1,11 +1,12 @@
 body {
     background-color: ThreeDLightShadow;
+    height: 100%;
 }
 .button {
     background-color: ButtonShadow;
     border: none;
     color: white;
-    width: 30%;
+    width: 33%;
     padding: 20px 20px;
     text-align: center;
     text-decoration: none;
@@ -56,10 +57,48 @@ table, th, td{
     display: inline-block;
 }
 table{
+    min-height: calc(100vh - 70px);
     position: absolute;
     left:20%;
 }
 img.skills{
     width: 20vm;
     height: 30vh;
+}
+footer{
+    height: 50px;
+    position: absolute;
+    margin: 0;
+    bottom: 0;
+    background-color: ButtonShadow ;
+    width:99%;
+    color: whitesmoke;
+    font-family: "DejaVu Sans";
+   }
+.inline {
+    display: inline;
+
+}
+
+button:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+button:visited {
+    color: white;
+    text-decoration: none;
+}
+
+/* mouse over link */
+button:hover {
+    color: black;
+    text-decoration: none;
+}
+
+/* selected link */
+button:active {
+    color: blue;
+    text-decoration: none;
 }
