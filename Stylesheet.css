@@ -1,5 +1,5 @@
 body {
-    background-color: ThreeDLightShadow;
+    background-color: #e3e3e3;
     height: 100%;
 }
 .button {
@@ -77,9 +77,7 @@ footer{
    }
 .inline {
     display: inline;
-
 }
-
 button:link {
     color: white;
     text-decoration: none;
