@@ -53,11 +53,9 @@ body {
     margin-top: 2% ;
 }
 table, th, td{
-    border: 1px solid black;
     display: inline-block;
 }
 table{
-    min-height: calc(100vh - 70px);
     position: absolute;
     left:20%;
 }
